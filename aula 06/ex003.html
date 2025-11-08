@@ -1,0 +1,42 @@
+<!-- 💛 Tratamento de Dados -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa</title>
+    <style> /* Essa é a tag de CSS */
+        body {
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 190, 215);
+            font: normal 18pt comic sans ms;
+        }
+        h1 {
+            color: rgb(189, 239, 240);
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Meu primeiro programa em JavaScript</p>
+    <script> 
+        //Antes
+        // var n1 = window.prompt('Digite um número: ')
+        // var n2 = window.prompt('Digite outro número: ')
+        //Depois
+        // var n1 = Number.parseInt(window.prompt('Digite um número: ')) // O Number converte para um número inteiro
+        // var n2 = Number.parseInt(window.prompt('Digite outro número: '))
+        // Ou 
+        var n1 = Number(window.prompt('Digite um número: ')) // O Number definirá o tipo (Int ou Float)
+        var n2 = Number(window.prompt('Digite outro número: '))
+        var s = n1 + n2 
+        // window.alert('A soma dos valores é ' + s)
+        // window.alert('A soma dos valores é ' + String(s)) // s é convertido em string
+        window.alert(`A soma entre ${n1} e ${n2} é ${s}`) // Template String = crase ``
+        
+        // (number + number) para adição 
+        // (string + string) para concatenação
+    </script> 
+</body>
+</html>
