@@ -1,6 +1,6 @@
-Módulo 1 - Conhecendo o JavaScript
+Módulo A - Conhecendo o JavaScript
 
-Módulo 2 - Dados 
-- Armazenando Dados
+Módulo B - Comandos Básicos do JavaScript
+- Variáveis e Tipos Primitivos
 - Tratamento de Dados
 - Operações com Dados
